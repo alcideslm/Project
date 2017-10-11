@@ -13,7 +13,7 @@ import tarefa.conn.ConnGeneric;
 
 /**
  *
- * @author Alcides Lemos / Cristian Rocha
+ * @author Alcides Lemos / Cristian Rocha / Menos o Alex
  */
 public abstract class GenericDao {
     protected ConnGeneric conn;
