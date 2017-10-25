@@ -11,7 +11,7 @@ import javax.persistence.Persistence;
 
 /**
  *
- * @author 00177901
+ * @author Pidorodeski
  */
 public class GerarTabelas {
     public static void main(String[] args) {
