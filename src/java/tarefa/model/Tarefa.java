@@ -5,13 +5,18 @@
  */
 package tarefa.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.validation.constraints.*;
 
 /**
  *
  * @author Alcides Lemos
  */
+
+@Entity
 public class Tarefa {
+    @Id
     private int idTarefa;
     @NotNull(message = "A descrição deve ser preenchida!")
     @Size(min=5, message = "A descrição deve ter pelo menos 5 caracteres")
