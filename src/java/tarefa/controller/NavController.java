@@ -15,13 +15,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class NavController {
 
-    /*@RequestMapping("/")
+    @RequestMapping("/")
     public String execute() {
-        return "vend/index";
-    }*/
+        return "index";
+    }
 
-  @RequestMapping("fLogin")
-  public String formLogin() {
-      return "login/loginForm";
-  }
+//    @RequestMapping("fLogin")
+//    public String formLogin() {
+//        return "login/loginForm";
+//    }
 }
